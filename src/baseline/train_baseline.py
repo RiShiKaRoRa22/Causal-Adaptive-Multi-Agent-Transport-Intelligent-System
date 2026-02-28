@@ -45,12 +45,30 @@ X_test  = test_df[FEATURES]
 # =========================
 # BASELINE 1: PASSENGER DEMAND
 # =========================
+# =========================
+# BASELINE 1 (FIXED): PASSENGER DEMAND
+# Reduced features to avoid leakage
+# =========================
+
+FEATURES_DEMAND = [
+    "hour",
+    "day_of_week",
+    "is_weekend",
+    "is_peak",
+    "speed",
+    "congestion_level",
+    "capacity"
+]
+
+X_train = train_df[FEATURES_DEMAND]
+X_test  = test_df[FEATURES_DEMAND]
+
 y_train = train_df["passenger_demand"]
 y_test  = test_df["passenger_demand"]
 
 demand_model = LGBMRegressor(
     n_estimators=200,
-    max_depth=6,
+    max_depth=5,
     learning_rate=0.05,
     subsample=0.8,
     colsample_bytree=0.8,
@@ -62,11 +80,12 @@ demand_model.fit(X_train, y_train)
 train_pred = demand_model.predict(X_train)
 test_pred  = demand_model.predict(X_test)
 
-print("\n=== Passenger Demand (LightGBM Baseline) ===")
+print("\n=== Passenger Demand (LightGBM Baseline – Reduced Features) ===")
 print(f"Train MAE: {mean_absolute_error(y_train, train_pred):.3f}")
 print(f"Test  MAE: {mean_absolute_error(y_test, test_pred):.3f}")
 print(f"Test RMSE: {np.sqrt(mean_squared_error(y_test, test_pred)):.3f}")
 print(f"Test R2  : {r2_score(y_test, test_pred):.3f}")
+
 
 # =========================
 # BASELINE 2: LOAD FACTOR
