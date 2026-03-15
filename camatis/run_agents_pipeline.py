@@ -105,6 +105,30 @@ def main():
 
     decisions = pipeline.run()
 
+    from collections import defaultdict, Counter
+
+    route_actions = defaultdict(list)
+
+    for d in decisions:
+        route_actions[d["route_id"]].append(d["action"])
+
+    route_summary = {}
+
+    for route, acts in route_actions.items():
+        route_summary[route] = Counter(acts).most_common(1)[0][0]
+
+    print("\nRoute-Level Decisions:")
+    for r, a in list(route_summary.items())[:10]:
+        print(f"Route {r} → {a}")
+
+    # ✅ COUNT DECISIONS PER ROUTE
+    action_counts = Counter(route_summary.values())
+
+    print("\nDecision Distribution (Routes):")
+    for action, count in action_counts.items():
+        percent = (count / len(route_summary)) * 100
+        print(f"{action}: {count} routes ({percent:.2f}%)")
+
     return decisions
 
 

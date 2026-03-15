@@ -7,7 +7,7 @@ import os
 
 # Paths
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
-DATA_DIR = os.path.join(BASE_DIR, "data")
+DATA_DIR = os.path.join(BASE_DIR, "camatis", "data")
 MODELS_DIR = os.path.join(BASE_DIR, "camatis", "models_saved")
 RESULTS_DIR = os.path.join(BASE_DIR, "camatis", "results")
 LOGS_DIR = os.path.join(BASE_DIR, "camatis", "logs")
@@ -23,7 +23,7 @@ TEST_FILE = os.path.join(DATA_DIR, "test_engineered.csv")
 # Feature Groups
 CAUSAL_FEATURES = ['congestion_level', 'speed', 'is_peak', 'capacity']
 TEMPORAL_FEATURES = ['hour', 'day_of_week', 'month', 'is_weekend', 'is_peak']
-SPATIAL_FEATURES = ['route_id', 'route_avg_speed', 'route_avg_demand', 'route_avg_congestion']
+SPATIAL_FEATURES = ['route_avg_speed', 'route_avg_demand', 'route_avg_congestion']
 OPERATIONAL_FEATURES = ['SRI', 'demand_capacity_ratio', 'speed_congestion_ratio', 'utilization_score']
 
 # Target Variables (Multi-Task)

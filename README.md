@@ -69,4 +69,22 @@ After running, results will be saved in:
 - Python 3.8+
 - PyTorch 2.0.1+
 - LightGBM, CatBoost, XGBoost
-- See `camatis_requirements.txt` for full list
+- See `camatis_requirements.txt` for full list( removed torch due to gpu dependency issues, install according to system configs)
+
+
+
+# AGENTS INTEGRATION 
+Dataset (45k rows)
+        ↓
+Feature Engineering
+        ↓
+CDAGT Deep Learning Model
+(Graph + Transformer)
+        ↓
+Meta Ensemble (LightGBM + CatBoost)
+        ↓
+Uncertainty Estimation (MC Dropout)
+        ↓
+Anomaly Detection (Isolation Forest)
+        ↓
+Multi-Agent Decision System

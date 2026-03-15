@@ -3,6 +3,7 @@ Stage 3: Causal Dual-Attention Graph Transformer (CDAGT)
 Core deep learning model with graph and temporal attention
 """
 
+import os
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -196,7 +197,25 @@ class DeepLearningTrainer:
                     break
         
         print("Training completed!")
-        
+        self.save_model()
+
+    def save_model(self, path=None):
+        """Save model weights for inference"""
+        if path is None:
+            path = os.path.join(MODELS_DIR, "cdagt_best.pth")
+        torch.save(self.model.state_dict(), path)
+        print(f"Model saved to {path}")
+
+    def load_model(self, path=None):
+        """Load model weights for inference"""
+        if path is None:
+            path = os.path.join(MODELS_DIR, "cdagt_best.pth")
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"Model checkpoint not found: {path}")
+        self.model.load_state_dict(torch.load(path, map_location=self.device))
+        self.model.eval()
+        print(f"Model loaded from {path}")
+
     def predict(self, X):
         """Make predictions"""
         self.model.eval()
@@ -219,19 +238,26 @@ class DeepLearningTrainer:
         
         demand_samples = []
         load_samples = []
+        cls_samples = []
         
         for _ in range(n_samples):
             with torch.no_grad():
-                pred_demand, pred_load, _ = self.model(X_tensor, mc_dropout=True)
+                pred_demand, pred_load, pred_util = self.model(X_tensor, mc_dropout=True)
+
                 demand_samples.append(pred_demand.cpu().numpy())
                 load_samples.append(pred_load.cpu().numpy())
+
+                probs = torch.softmax(pred_util, dim=1)
+                cls_samples.append(probs.cpu().numpy())
         
         demand_samples = np.array(demand_samples)
         load_samples = np.array(load_samples)
+        cls_samples = np.array(cls_samples)
         
         return {
-            'demand_mean': demand_samples.mean(axis=0),
-            'demand_std': demand_samples.std(axis=0),
-            'load_mean': load_samples.mean(axis=0),
-            'load_std': load_samples.std(axis=0)
-        }
+        'demand_mean': demand_samples.mean(axis=0),
+        'demand_std': demand_samples.std(axis=0),
+        'load_mean': load_samples.mean(axis=0),
+        'load_std': load_samples.std(axis=0),
+        'cls_probs': cls_samples.mean(axis=0)
+    }
