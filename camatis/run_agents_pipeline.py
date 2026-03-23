@@ -19,6 +19,7 @@ from camatis.stage4_meta_ensemble import MetaEnsemble
 from camatis.stage5_uncertainty_anomaly import UncertaintyAnomalyPipeline
 from camatis.agents.agent_manager import AgentManager
 
+from camatis.execution.action_engine import TransportState, ExecutionEngine
 
 class CAMATISDecisionPipeline:
 
@@ -67,8 +68,8 @@ class CAMATISDecisionPipeline:
         # Uncertainty + anomaly
         # --------------------------------------------------
         uncertainty_results = self.uncertainty_pipeline.process_inference(
-            X_test, dl_trainer
-        )
+    X_train, X_test, dl_trainer
+    )
 
         # --------------------------------------------------
         # Run agents
@@ -88,6 +89,30 @@ class CAMATISDecisionPipeline:
             high_uncertainty_mask=uncertainty_results['high_uncertainty_mask'],
             anomaly_mask=uncertainty_results['anomaly_results']['is_anomaly']
         )
+
+      
+
+        # --------------------------------------------------
+# ACTION EXECUTION LAYER (ADD HERE)
+# --------------------------------------------------
+
+        #from camatis.execution.action_engine import TransportState, ExecutionEngine
+
+        state = TransportState()
+        engine = ExecutionEngine(state)
+
+        print("\nExecuting Actions...\n")
+
+        for i, d in enumerate(decisions):
+
+            route_id = d["route_id"]
+
+            # NEW: handle multi-actions safely
+            actions = d.get("actions", [d.get("action", "No Action")])
+
+            demand = final_predictions['passenger_demand'][i]
+
+            engine.execute(route_id, actions, demand)
 
         print(f"\nAgent decisions generated: {len(decisions)}")
         print("\nSample Decisions:")
@@ -110,7 +135,8 @@ def main():
     route_actions = defaultdict(list)
 
     for d in decisions:
-        route_actions[d["route_id"]].append(d["action"])
+        actions = d.get("actions", [d.get("action", "No Action")])
+        route_actions[d["route_id"]].extend(actions)
 
     route_summary = {}
 

@@ -151,21 +151,40 @@ class UncertaintyAnomalyPipeline:
             'anomaly_results': anomaly_results
         }
     
-    def process_inference(self, X_test, dl_trainer):
-        """Run uncertainty + anomaly detection without retraining"""
-        
-        # Load trained anomaly detector
-        self.anomaly_detector.load_detector()
-        
+    def process_inference(self, X_train, X_test, dl_trainer):
+
+        from sklearn.preprocessing import StandardScaler
+
+        # ---------------------------
+        # SCALE DATA (VERY IMPORTANT)
+        # ---------------------------
+        self.scaler = StandardScaler()
+        X_train_scaled = self.scaler.fit_transform(X_train)
+        X_test_scaled = self.scaler.transform(X_test)
+
+        # ---------------------------
+        # TRAIN ANOMALY DETECTOR
+        # ---------------------------
+        self.anomaly_detector.isolation_forest.set_params(contamination=0.03)
+        self.anomaly_detector.fit(X_train_scaled)
+
+        # ---------------------------
+        # UNCERTAINTY (MC DROPOUT)
+        # ---------------------------
         print("Computing uncertainty estimates...")
         uncertainty_preds = dl_trainer.predict_with_uncertainty(X_test)
-        
+
         confidence_intervals = self.uncertainty_engine.compute_confidence_intervals(uncertainty_preds)
-        
+
         high_uncertainty = self.uncertainty_engine.identify_high_uncertainty_samples(confidence_intervals)
-        
-        anomaly_results = self.anomaly_detector.detect_anomalies(X_test)
-        
+
+        # ---------------------------
+        # ANOMALY DETECTION
+        # ---------------------------
+        anomaly_results = self.anomaly_detector.detect_anomalies(X_test_scaled)
+
+        print("Anomaly %:", anomaly_results['is_anomaly'].mean())
+
         return {
             'uncertainty_predictions': uncertainty_preds,
             'confidence_intervals': confidence_intervals,

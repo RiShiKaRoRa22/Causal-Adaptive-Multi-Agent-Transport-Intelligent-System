@@ -55,12 +55,12 @@ class AgentManager:
             if final_action:
                 decisions.append({
                     "route_id": route_ids[i],
-                    "action": final_action.get("action", final_action["type"])
+                    "actions": [a["action"] for a in final_action]
                 })
             else:
                 decisions.append({
                     "route_id": route_ids[i],
-                    "action": "No Action"
+                    "actions": ["No Action"]
                 })
 
         return decisions
