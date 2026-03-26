@@ -21,6 +21,7 @@ from camatis.agents.agent_manager import AgentManager
 from camatis.optimization.decision_optimizer import DecisionOptimizer
 
 from camatis.execution.action_engine import TransportState, ExecutionEngine
+from camatis.simulation.stage7_simulation import ScenarioSimulator
 
 class CAMATISDecisionPipeline:
 
@@ -133,6 +134,12 @@ class CAMATISDecisionPipeline:
             agent_outputs=route_actions
         )
 
+        print("\n=== OPTIMIZATION DEBUG ===")
+
+        for route, plan in list(optimized.items())[:10]:
+            print(f"Route {route}: {plan}")
+
+        
         
    
    
@@ -167,13 +174,90 @@ class CAMATISDecisionPipeline:
            
             engine.execute_optimized(route, plan)
 
+        simulator = ScenarioSimulator()
+
+        sim, sim_results = simulator.run(
+            predictions=merged_predictions,
+            uncertainty_info=uncertainty_results,
+            optimized_actions=optimized
+        )
+
+        final_output = []
+
+        for route in optimized.keys():
+
+            plan = optimized.get(route, {})
+
+            # Find decision entry
+            route_decisions = [d for d in decisions if d["route_id"] == route]
+
+            actions = []
+            anomaly_flag = False
+            uncertainty_flag = False
+
+            for d in route_decisions:
+
+                if "actions" in d:
+                    actions.extend(d["actions"])
+
+                if d.get("action") == "Investigate Anomaly":
+                    anomaly_flag = True
+
+                if d.get("demand_uncertainty", 0) > 0.1:
+                    uncertainty_flag = True
+
+            # Remove duplicates
+            actions = list(set(actions))
+
+            final_output.append({
+            "route_id": int(route),
+
+            "demand_after": float(round(sim.dynamic_demand.get(route, 0), 2)),
+            "waiting_passengers": float(round(sim.routes.get(route, {}).get("waiting", 0), 2)),
+
+            "actions": [str(a) for a in actions],
+
+            "frequency_multiplier": float(round(plan.get("frequency_multiplier", 1), 2)),
+            "buses_added": int(plan.get("buses_to_add", 0)),
+
+            "rerouted_to": int(plan["reroute_to"]) if plan.get("reroute_to") is not None else None,
+
+            "anomaly": bool(anomaly_flag),
+            "high_uncertainty": bool(uncertainty_flag)
+        })
+
+        print("\n=== FINAL ROUTE OUTPUT ===")
+
+        for r in final_output[:10]:
+            print(r)
+        import json
+        with open("final_output.json", "w") as f:
+            json.dump(final_output, f, indent=2)
+
+        '''print("\n=== ROUTE LEVEL STATE ===")
+
+        for r in list(sim.routes.keys())[:10]:
+            print(f"Route {r}: waiting={round(sim.routes[r]['waiting'],2)}")
+
+
+        print("\n=== DEMAND AFTER DECISIONS ===")
+
+        for r in list(sim.dynamic_demand.keys())[:10]:
+            print(f"Route {r}: demand={round(sim.dynamic_demand[r],2)}")'''
+
+        '''print("\n=== SIMULATION RESULTS ===")
+        for scenario, result in sim_results.items():
+            print(f"{scenario}: {result}")'''
+
+
         print(f"\nAgent decisions generated: {len(decisions)}")
         print("\nSample Decisions:")
         for d in decisions[:10]:
             print(d)
 
         return decisions
-
+        
+    
 
 def main():
 
