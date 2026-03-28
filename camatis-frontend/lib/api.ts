@@ -138,3 +138,35 @@ export interface Alert {
 }
 
 export const getAlerts = () => get<Alert[]>("/alerts", []);
+
+export interface SimulationSummary {
+  total_routes: number;
+  routes_with_actions: number;
+  total_buses_added: number;
+  avg_frequency: number;
+  avg_waiting: number;
+  critical_routes: number;
+}
+
+export const getSimulationSummary = async (): Promise<SimulationSummary> => {
+  const results = await getResults();
+  if (!results || results.length === 0) {
+    return {
+      total_routes: 0,
+      routes_with_actions: 0,
+      total_buses_added: 0,
+      avg_frequency: 0,
+      avg_waiting: 0,
+      critical_routes: 0
+    };
+  }
+  
+  return {
+    total_routes: results.length,
+    routes_with_actions: results.filter(r => r.actions.length > 0 && !r.actions.includes("No action")).length,
+    total_buses_added: results.reduce((sum, r) => sum + r.buses_added, 0),
+    avg_frequency: parseFloat((results.reduce((sum, r) => sum + r.frequency_multiplier, 0) / results.length).toFixed(2)),
+    avg_waiting: results.reduce((sum, r) => sum + r.waiting_passengers, 0) / results.length,
+    critical_routes: results.filter(r => r.waiting_passengers > 5000).length
+  };
+};
