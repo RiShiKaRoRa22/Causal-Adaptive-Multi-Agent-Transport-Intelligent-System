@@ -1,0 +1,3727 @@
+[
+  {
+    "route_id": 2,
+    "demand_after": 1.0,
+    "waiting_passengers": 13.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.09,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 3,
+    "demand_after": 1.0,
+    "waiting_passengers": 45.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 5,
+    "demand_after": 6.54,
+    "waiting_passengers": 8361.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.46,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 7,
+    "demand_after": 10.48,
+    "waiting_passengers": 11897.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 8,
+    "demand_after": 15.34,
+    "waiting_passengers": 20241.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 9,
+    "demand_after": 0.6,
+    "waiting_passengers": 975.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": 10,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 10,
+    "demand_after": 8.84,
+    "waiting_passengers": 10712.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 11,
+    "demand_after": 1.0,
+    "waiting_passengers": 95.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 12,
+    "demand_after": 1.0,
+    "waiting_passengers": 50.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 13,
+    "demand_after": 1.0,
+    "waiting_passengers": 115.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 14,
+    "demand_after": 11.74,
+    "waiting_passengers": 16643.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 17,
+    "demand_after": 1.0,
+    "waiting_passengers": 0.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 0.94,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 19,
+    "demand_after": 1.0,
+    "waiting_passengers": 92.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 20,
+    "demand_after": 1.0,
+    "waiting_passengers": 45.0,
+    "actions": [
+      "High Demand Risk",
+      "Increase Frequency",
+      "Investigate Anomaly",
+      "Allocate Extra Bus",
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 21,
+    "demand_after": 1.0,
+    "waiting_passengers": 116.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 22,
+    "demand_after": 1.0,
+    "waiting_passengers": 78.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.41,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 24,
+    "demand_after": 7.89,
+    "waiting_passengers": 10167.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.5,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 26,
+    "demand_after": 1.0,
+    "waiting_passengers": 86.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.48,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 27,
+    "demand_after": 1.0,
+    "waiting_passengers": 0.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.14,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 28,
+    "demand_after": 1.0,
+    "waiting_passengers": 9.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.4,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 29,
+    "demand_after": 1.0,
+    "waiting_passengers": 58.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.48,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 30,
+    "demand_after": 1.0,
+    "waiting_passengers": 88.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.48,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 31,
+    "demand_after": 1.0,
+    "waiting_passengers": 76.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.42,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 33,
+    "demand_after": 7.65,
+    "waiting_passengers": 10067.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 36,
+    "demand_after": 1.0,
+    "waiting_passengers": 92.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 37,
+    "demand_after": 1.0,
+    "waiting_passengers": 84.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.43,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 38,
+    "demand_after": 1.0,
+    "waiting_passengers": 83.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 39,
+    "demand_after": 1.0,
+    "waiting_passengers": 65.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 41,
+    "demand_after": 3.39,
+    "waiting_passengers": 3399.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.46,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 42,
+    "demand_after": 1.0,
+    "waiting_passengers": 146.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 43,
+    "demand_after": 1.0,
+    "waiting_passengers": 102.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 46,
+    "demand_after": 11.17,
+    "waiting_passengers": 15348.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.5,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 47,
+    "demand_after": 16.26,
+    "waiting_passengers": 23748.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 49,
+    "demand_after": 1.0,
+    "waiting_passengers": 23.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.4,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 50,
+    "demand_after": 1.0,
+    "waiting_passengers": 57.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.37,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 51,
+    "demand_after": 1.0,
+    "waiting_passengers": 56.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.32,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 52,
+    "demand_after": 2.86,
+    "waiting_passengers": 3041.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 53,
+    "demand_after": 1.0,
+    "waiting_passengers": 65.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 55,
+    "demand_after": 6.37,
+    "waiting_passengers": 8036.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.46,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 56,
+    "demand_after": 11.58,
+    "waiting_passengers": 16904.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 57,
+    "demand_after": 16.7,
+    "waiting_passengers": 25578.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 58,
+    "demand_after": 5.39,
+    "waiting_passengers": 6369.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 59,
+    "demand_after": 1.0,
+    "waiting_passengers": 101.0,
+    "actions": [
+      "High Demand Risk",
+      "Allocate Extra Bus",
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 60,
+    "demand_after": 1.0,
+    "waiting_passengers": 164.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 61,
+    "demand_after": 1.0,
+    "waiting_passengers": 36.0,
+    "actions": [
+      "High Demand Risk",
+      "Increase Frequency",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.36,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 63,
+    "demand_after": 12.24,
+    "waiting_passengers": 15530.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.35,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 64,
+    "demand_after": 15.61,
+    "waiting_passengers": 23487.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 66,
+    "demand_after": 1.0,
+    "waiting_passengers": 141.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 67,
+    "demand_after": 1.0,
+    "waiting_passengers": 90.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 68,
+    "demand_after": 1.0,
+    "waiting_passengers": 50.0,
+    "actions": [
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.42,
+    "buses_added": 1,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 69,
+    "demand_after": 3.6,
+    "waiting_passengers": 1258.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 70,
+    "demand_after": 11.92,
+    "waiting_passengers": 17578.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 71,
+    "demand_after": 15.35,
+    "waiting_passengers": 23190.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 76,
+    "demand_after": 16.52,
+    "waiting_passengers": 23759.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 77,
+    "demand_after": 1.4,
+    "waiting_passengers": 71.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 78,
+    "demand_after": 0.6,
+    "waiting_passengers": 853.0,
+    "actions": [
+      "High Demand Risk",
+      "Increase Frequency",
+      "Investigate Anomaly",
+      "Allocate Extra Bus",
+      "No action"
+    ],
+    "frequency_multiplier": 1.41,
+    "buses_added": 2,
+    "rerouted_to": 77,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 80,
+    "demand_after": 1.0,
+    "waiting_passengers": 72.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.4,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 81,
+    "demand_after": 1.0,
+    "waiting_passengers": 136.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 82,
+    "demand_after": 1.0,
+    "waiting_passengers": 52.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 1,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 84,
+    "demand_after": 0.6,
+    "waiting_passengers": 846.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.44,
+    "buses_added": 0,
+    "rerouted_to": 85,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 85,
+    "demand_after": 1.4,
+    "waiting_passengers": 65.0,
+    "actions": [
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 87,
+    "demand_after": 3.17,
+    "waiting_passengers": 3687.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 88,
+    "demand_after": 4.73,
+    "waiting_passengers": 5536.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.41,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 89,
+    "demand_after": 10.47,
+    "waiting_passengers": 14687.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 90,
+    "demand_after": 15.14,
+    "waiting_passengers": 21946.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 91,
+    "demand_after": 11.73,
+    "waiting_passengers": 16532.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 93,
+    "demand_after": 1.0,
+    "waiting_passengers": 87.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.45,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 94,
+    "demand_after": 1.0,
+    "waiting_passengers": 152.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 97,
+    "demand_after": 8.94,
+    "waiting_passengers": 13076.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 100,
+    "demand_after": 1.0,
+    "waiting_passengers": 2.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.4,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 101,
+    "demand_after": 1.0,
+    "waiting_passengers": 115.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 102,
+    "demand_after": 16.32,
+    "waiting_passengers": 22133.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.41,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 103,
+    "demand_after": 7.89,
+    "waiting_passengers": 9624.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.38,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 104,
+    "demand_after": 1.0,
+    "waiting_passengers": 107.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 105,
+    "demand_after": 13.35,
+    "waiting_passengers": 11913.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 0.99,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 106,
+    "demand_after": 13.51,
+    "waiting_passengers": 16276.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 107,
+    "demand_after": 6.06,
+    "waiting_passengers": 7556.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 108,
+    "demand_after": 1.0,
+    "waiting_passengers": 88.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 109,
+    "demand_after": 1.0,
+    "waiting_passengers": 65.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.34,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 110,
+    "demand_after": 12.18,
+    "waiting_passengers": 16456.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.42,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 111,
+    "demand_after": 1.0,
+    "waiting_passengers": 71.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 113,
+    "demand_after": 1.0,
+    "waiting_passengers": 107.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 114,
+    "demand_after": 1.0,
+    "waiting_passengers": 113.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 115,
+    "demand_after": 1.0,
+    "waiting_passengers": 31.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.35,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 116,
+    "demand_after": 0.6,
+    "waiting_passengers": 1010.0,
+    "actions": [
+      "High Demand Risk",
+      "Allocate Extra Bus",
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 2,
+    "rerouted_to": 117,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 117,
+    "demand_after": 1.4,
+    "waiting_passengers": 67.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.46,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 118,
+    "demand_after": 3.96,
+    "waiting_passengers": 4778.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 119,
+    "demand_after": 5.41,
+    "waiting_passengers": 6819.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 120,
+    "demand_after": 11.07,
+    "waiting_passengers": 16182.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 121,
+    "demand_after": 12.26,
+    "waiting_passengers": 11801.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.08,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 122,
+    "demand_after": 14.29,
+    "waiting_passengers": 21166.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 123,
+    "demand_after": 1.0,
+    "waiting_passengers": 125.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 125,
+    "demand_after": 5.11,
+    "waiting_passengers": 5291.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 1,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 126,
+    "demand_after": 15.73,
+    "waiting_passengers": 22000.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 127,
+    "demand_after": 10.68,
+    "waiting_passengers": 15627.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 128,
+    "demand_after": 1.0,
+    "waiting_passengers": 52.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 129,
+    "demand_after": 1.0,
+    "waiting_passengers": 120.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 130,
+    "demand_after": 1.0,
+    "waiting_passengers": 104.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 131,
+    "demand_after": 1.0,
+    "waiting_passengers": 93.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 132,
+    "demand_after": 1.0,
+    "waiting_passengers": 70.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.36,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 133,
+    "demand_after": 1.0,
+    "waiting_passengers": 45.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 135,
+    "demand_after": 1.0,
+    "waiting_passengers": 41.0,
+    "actions": [
+      "High Demand Risk",
+      "Increase Frequency",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 136,
+    "demand_after": 1.0,
+    "waiting_passengers": 83.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.41,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 139,
+    "demand_after": 1.0,
+    "waiting_passengers": 53.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.44,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 140,
+    "demand_after": 1.0,
+    "waiting_passengers": 67.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 142,
+    "demand_after": 1.0,
+    "waiting_passengers": 45.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.46,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 143,
+    "demand_after": 1.0,
+    "waiting_passengers": 93.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 144,
+    "demand_after": 1.0,
+    "waiting_passengers": 115.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 145,
+    "demand_after": 1.0,
+    "waiting_passengers": 123.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 146,
+    "demand_after": 8.32,
+    "waiting_passengers": 11809.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 147,
+    "demand_after": 0.6,
+    "waiting_passengers": 953.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 2,
+    "rerouted_to": 148,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 148,
+    "demand_after": 1.4,
+    "waiting_passengers": 73.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.5,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 149,
+    "demand_after": 8.1,
+    "waiting_passengers": 11023.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 150,
+    "demand_after": 1.0,
+    "waiting_passengers": 109.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 151,
+    "demand_after": 8.18,
+    "waiting_passengers": 11638.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 152,
+    "demand_after": 1.0,
+    "waiting_passengers": 124.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 154,
+    "demand_after": 1.0,
+    "waiting_passengers": 48.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.42,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 155,
+    "demand_after": 1.0,
+    "waiting_passengers": 92.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 158,
+    "demand_after": 12.64,
+    "waiting_passengers": 17489.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.45,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 159,
+    "demand_after": 1.0,
+    "waiting_passengers": 51.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.37,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 161,
+    "demand_after": 9.96,
+    "waiting_passengers": 8880.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 162,
+    "demand_after": 7.6,
+    "waiting_passengers": 11926.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 2,
+    "rerouted_to": 161,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 163,
+    "demand_after": 1.0,
+    "waiting_passengers": 70.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.51,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 164,
+    "demand_after": 1.0,
+    "waiting_passengers": 137.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 165,
+    "demand_after": 1.0,
+    "waiting_passengers": 104.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 166,
+    "demand_after": 1.0,
+    "waiting_passengers": 62.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 167,
+    "demand_after": 14.31,
+    "waiting_passengers": 21248.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 168,
+    "demand_after": 1.0,
+    "waiting_passengers": 104.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 169,
+    "demand_after": 1.0,
+    "waiting_passengers": 47.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.06,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 170,
+    "demand_after": 1.0,
+    "waiting_passengers": 178.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 172,
+    "demand_after": 1.0,
+    "waiting_passengers": 50.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 174,
+    "demand_after": 11.18,
+    "waiting_passengers": 18541.0,
+    "actions": [
+      "High Demand Risk",
+      "Allocate Extra Bus",
+      "Increase Frequency",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 2.01,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 175,
+    "demand_after": 9.28,
+    "waiting_passengers": 14414.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 1,
+    "rerouted_to": 177,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 177,
+    "demand_after": 7.19,
+    "waiting_passengers": 6335.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 179,
+    "demand_after": 3.4,
+    "waiting_passengers": 3852.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 180,
+    "demand_after": 1.86,
+    "waiting_passengers": 1248.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 181,
+    "demand_after": 13.46,
+    "waiting_passengers": 19594.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 183,
+    "demand_after": 1.71,
+    "waiting_passengers": 1204.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 185,
+    "demand_after": 13.2,
+    "waiting_passengers": 18283.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.5,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 186,
+    "demand_after": 1.0,
+    "waiting_passengers": 83.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.41,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 187,
+    "demand_after": 1.0,
+    "waiting_passengers": 173.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 188,
+    "demand_after": 1.65,
+    "waiting_passengers": 835.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.39,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 189,
+    "demand_after": 2.96,
+    "waiting_passengers": 1792.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.1,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 190,
+    "demand_after": 13.13,
+    "waiting_passengers": 18940.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 191,
+    "demand_after": 1.0,
+    "waiting_passengers": 147.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 192,
+    "demand_after": 4.07,
+    "waiting_passengers": 1916.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 193,
+    "demand_after": 1.0,
+    "waiting_passengers": 56.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 194,
+    "demand_after": 1.9,
+    "waiting_passengers": 1457.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.46,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 195,
+    "demand_after": 1.0,
+    "waiting_passengers": 168.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 196,
+    "demand_after": 3.0,
+    "waiting_passengers": 2549.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.32,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 197,
+    "demand_after": 6.04,
+    "waiting_passengers": 3710.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 198,
+    "demand_after": 7.55,
+    "waiting_passengers": 11925.0,
+    "actions": [
+      "High Demand Risk",
+      "Increase Frequency",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 2,
+    "rerouted_to": 197,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 200,
+    "demand_after": 9.08,
+    "waiting_passengers": 11901.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 201,
+    "demand_after": 1.0,
+    "waiting_passengers": 60.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 202,
+    "demand_after": 7.34,
+    "waiting_passengers": 10360.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 203,
+    "demand_after": 8.81,
+    "waiting_passengers": 12735.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 204,
+    "demand_after": 1.0,
+    "waiting_passengers": 123.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 205,
+    "demand_after": 5.96,
+    "waiting_passengers": 8060.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 206,
+    "demand_after": 7.48,
+    "waiting_passengers": 10716.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 207,
+    "demand_after": 1.0,
+    "waiting_passengers": 122.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 208,
+    "demand_after": 1.0,
+    "waiting_passengers": 63.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.48,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 209,
+    "demand_after": 1.0,
+    "waiting_passengers": 52.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.05,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 213,
+    "demand_after": 1.17,
+    "waiting_passengers": 284.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.41,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 214,
+    "demand_after": 3.07,
+    "waiting_passengers": 3285.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 215,
+    "demand_after": 6.0,
+    "waiting_passengers": 7635.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 216,
+    "demand_after": 9.08,
+    "waiting_passengers": 11421.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.36,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 217,
+    "demand_after": 12.59,
+    "waiting_passengers": 17837.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.51,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 227,
+    "demand_after": 1.0,
+    "waiting_passengers": 92.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 230,
+    "demand_after": 1.0,
+    "waiting_passengers": 137.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 233,
+    "demand_after": 1.0,
+    "waiting_passengers": 163.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 234,
+    "demand_after": 1.4,
+    "waiting_passengers": 53.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.44,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 235,
+    "demand_after": 0.6,
+    "waiting_passengers": 868.0,
+    "actions": [
+      "High Demand Risk",
+      "Increase Frequency",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.4,
+    "buses_added": 0,
+    "rerouted_to": 234,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 236,
+    "demand_after": 5.27,
+    "waiting_passengers": 7583.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.44,
+    "buses_added": 0,
+    "rerouted_to": 237,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 237,
+    "demand_after": 4.51,
+    "waiting_passengers": 4205.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 252,
+    "demand_after": 1.89,
+    "waiting_passengers": 87.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 253,
+    "demand_after": 6.39,
+    "waiting_passengers": 8218.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 255,
+    "demand_after": 1.0,
+    "waiting_passengers": 46.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 256,
+    "demand_after": 2.22,
+    "waiting_passengers": 98.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 257,
+    "demand_after": 0.6,
+    "waiting_passengers": 952.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.51,
+    "buses_added": 2,
+    "rerouted_to": 256,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 264,
+    "demand_after": 1.0,
+    "waiting_passengers": 129.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 275,
+    "demand_after": 1.0,
+    "waiting_passengers": 49.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.43,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 276,
+    "demand_after": 2.91,
+    "waiting_passengers": 154.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 277,
+    "demand_after": 2.0,
+    "waiting_passengers": 4200.0,
+    "actions": [
+      "High Demand Risk",
+      "Increase Frequency",
+      "Investigate Anomaly",
+      "Allocate Extra Bus",
+      "No action"
+    ],
+    "frequency_multiplier": 2.06,
+    "buses_added": 2,
+    "rerouted_to": 276,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 279,
+    "demand_after": 1.0,
+    "waiting_passengers": 55.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 281,
+    "demand_after": 1.0,
+    "waiting_passengers": 68.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 282,
+    "demand_after": 1.0,
+    "waiting_passengers": 32.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.34,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 283,
+    "demand_after": 1.28,
+    "waiting_passengers": 56.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.17,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 284,
+    "demand_after": 6.1,
+    "waiting_passengers": 8050.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 291,
+    "demand_after": 1.0,
+    "waiting_passengers": 59.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 292,
+    "demand_after": 2.01,
+    "waiting_passengers": 1562.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 293,
+    "demand_after": 1.0,
+    "waiting_passengers": 53.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.44,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 294,
+    "demand_after": 3.22,
+    "waiting_passengers": 3517.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 295,
+    "demand_after": 4.67,
+    "waiting_passengers": 5997.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 296,
+    "demand_after": 9.15,
+    "waiting_passengers": 12784.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 297,
+    "demand_after": 11.15,
+    "waiting_passengers": 15887.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 298,
+    "demand_after": 14.64,
+    "waiting_passengers": 20485.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 299,
+    "demand_after": 16.29,
+    "waiting_passengers": 24010.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 301,
+    "demand_after": 1.0,
+    "waiting_passengers": 114.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 302,
+    "demand_after": 1.0,
+    "waiting_passengers": 105.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 303,
+    "demand_after": 1.0,
+    "waiting_passengers": 38.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 304,
+    "demand_after": 1.0,
+    "waiting_passengers": 109.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 305,
+    "demand_after": 2.49,
+    "waiting_passengers": 127.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 306,
+    "demand_after": 4.06,
+    "waiting_passengers": 1705.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 307,
+    "demand_after": 8.94,
+    "waiting_passengers": 15919.0,
+    "actions": [
+      "High Demand Risk",
+      "Increase Frequency",
+      "Allocate Extra Bus",
+      "Investigate Anomaly",
+      "No action"
+    ],
+    "frequency_multiplier": 2.07,
+    "buses_added": 1,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 308,
+    "demand_after": 10.97,
+    "waiting_passengers": 16161.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 309,
+    "demand_after": 13.9,
+    "waiting_passengers": 20834.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 310,
+    "demand_after": 15.72,
+    "waiting_passengers": 22804.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 311,
+    "demand_after": 1.0,
+    "waiting_passengers": 76.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 312,
+    "demand_after": 1.0,
+    "waiting_passengers": 7.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.35,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 313,
+    "demand_after": 1.0,
+    "waiting_passengers": 67.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 1,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 314,
+    "demand_after": 1.0,
+    "waiting_passengers": 129.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 315,
+    "demand_after": 1.0,
+    "waiting_passengers": 56.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.37,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 316,
+    "demand_after": 11.14,
+    "waiting_passengers": 13383.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 317,
+    "demand_after": 1.0,
+    "waiting_passengers": 182.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 318,
+    "demand_after": 1.0,
+    "waiting_passengers": 160.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 319,
+    "demand_after": 1.0,
+    "waiting_passengers": 41.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 320,
+    "demand_after": 1.0,
+    "waiting_passengers": 116.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 322,
+    "demand_after": 7.73,
+    "waiting_passengers": 10426.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 323,
+    "demand_after": 1.0,
+    "waiting_passengers": 127.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 324,
+    "demand_after": 1.0,
+    "waiting_passengers": 62.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 325,
+    "demand_after": 1.0,
+    "waiting_passengers": 61.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.48,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 326,
+    "demand_after": 12.02,
+    "waiting_passengers": 17746.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 327,
+    "demand_after": 1.0,
+    "waiting_passengers": 51.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.45,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 328,
+    "demand_after": 1.0,
+    "waiting_passengers": 105.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 329,
+    "demand_after": 1.0,
+    "waiting_passengers": 143.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.6,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 330,
+    "demand_after": 12.26,
+    "waiting_passengers": 18056.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 331,
+    "demand_after": 1.0,
+    "waiting_passengers": 49.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.48,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 332,
+    "demand_after": 1.0,
+    "waiting_passengers": 72.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 333,
+    "demand_after": 1.0,
+    "waiting_passengers": 145.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 334,
+    "demand_after": 11.78,
+    "waiting_passengers": 14355.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.32,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 335,
+    "demand_after": 1.0,
+    "waiting_passengers": 55.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.54,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 336,
+    "demand_after": 1.0,
+    "waiting_passengers": 50.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.29,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 337,
+    "demand_after": 1.4,
+    "waiting_passengers": 79.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 338,
+    "demand_after": 0.6,
+    "waiting_passengers": 924.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.48,
+    "buses_added": 0,
+    "rerouted_to": 337,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 339,
+    "demand_after": 1.0,
+    "waiting_passengers": 107.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 340,
+    "demand_after": 4.88,
+    "waiting_passengers": 6132.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 341,
+    "demand_after": 11.29,
+    "waiting_passengers": 16671.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.55,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 342,
+    "demand_after": 14.78,
+    "waiting_passengers": 19815.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.44,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 343,
+    "demand_after": 1.0,
+    "waiting_passengers": 48.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.48,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 344,
+    "demand_after": 1.0,
+    "waiting_passengers": 49.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 345,
+    "demand_after": 1.0,
+    "waiting_passengers": 69.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 346,
+    "demand_after": 1.0,
+    "waiting_passengers": 67.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.43,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 347,
+    "demand_after": 0.6,
+    "waiting_passengers": 758.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.34,
+    "buses_added": 2,
+    "rerouted_to": 348,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 348,
+    "demand_after": 4.98,
+    "waiting_passengers": 1988.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 350,
+    "demand_after": 0.6,
+    "waiting_passengers": 961.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": 351,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 351,
+    "demand_after": 1.4,
+    "waiting_passengers": 59.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.44,
+    "buses_added": 1,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 354,
+    "demand_after": 1.0,
+    "waiting_passengers": 81.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 355,
+    "demand_after": 1.0,
+    "waiting_passengers": 111.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 357,
+    "demand_after": 1.0,
+    "waiting_passengers": 55.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 358,
+    "demand_after": 1.0,
+    "waiting_passengers": 116.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 360,
+    "demand_after": 6.55,
+    "waiting_passengers": 10567.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": 361,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 361,
+    "demand_after": 6.02,
+    "waiting_passengers": 3122.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 362,
+    "demand_after": 1.87,
+    "waiting_passengers": 733.0,
+    "actions": [
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.13,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 363,
+    "demand_after": 1.72,
+    "waiting_passengers": 75.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 365,
+    "demand_after": 1.0,
+    "waiting_passengers": 51.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 366,
+    "demand_after": 1.0,
+    "waiting_passengers": 64.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.53,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 367,
+    "demand_after": 1.0,
+    "waiting_passengers": 48.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.47,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 368,
+    "demand_after": 1.0,
+    "waiting_passengers": 65.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 369,
+    "demand_after": 1.0,
+    "waiting_passengers": 46.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 1,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 371,
+    "demand_after": 0.6,
+    "waiting_passengers": 957.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.56,
+    "buses_added": 2,
+    "rerouted_to": 372,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 372,
+    "demand_after": 1.4,
+    "waiting_passengers": 76.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.41,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 374,
+    "demand_after": 0.6,
+    "waiting_passengers": 891.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.49,
+    "buses_added": 0,
+    "rerouted_to": 376,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 376,
+    "demand_after": 1.4,
+    "waiting_passengers": 79.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.42,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 377,
+    "demand_after": 1.0,
+    "waiting_passengers": 62.0,
+    "actions": [
+      "High Demand Risk",
+      "Investigate Anomaly",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 2,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 378,
+    "demand_after": 1.0,
+    "waiting_passengers": 88.0,
+    "actions": [
+      "No action"
+    ],
+    "frequency_multiplier": 1.59,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": 379,
+    "demand_after": 5.02,
+    "waiting_passengers": 6539.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.58,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 380,
+    "demand_after": 1.0,
+    "waiting_passengers": 73.0,
+    "actions": [
+      "High Demand Risk",
+      "No action",
+      "Allocate Extra Bus"
+    ],
+    "frequency_multiplier": 1.31,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": true
+  },
+  {
+    "route_id": 401,
+    "demand_after": 1.0,
+    "waiting_passengers": 71.0,
+    "actions": [
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.52,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  },
+  {
+    "route_id": -1,
+    "demand_after": 9.35,
+    "waiting_passengers": 13640.0,
+    "actions": [
+      "No action",
+      "Investigate Anomaly"
+    ],
+    "frequency_multiplier": 1.57,
+    "buses_added": 0,
+    "rerouted_to": null,
+    "anomaly": false,
+    "high_uncertainty": false
+  }
+]
