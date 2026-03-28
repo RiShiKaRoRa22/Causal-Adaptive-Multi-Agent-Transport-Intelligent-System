@@ -33,9 +33,8 @@ Before running the backend, ensure you have:
 
 ### 1. Clone/Navigate to Project Root
 
-```bash
 cd C:\Users\rishi\OneDrive\Desktop\PROJECTS\PBL2
-2. Create Virtual Environment
+### 2. Create Virtual Environment
 bash
 # Create virtual environment
 python -m venv venv
@@ -45,7 +44,7 @@ python -m venv venv
 venv\Scripts\activate
 
 
-3. Install Backend Dependencies
+### 3. Install Backend Dependencies
 bash
 # Install FastAPI and server
 pip install fastapi uvicorn
@@ -55,11 +54,12 @@ pip install numpy pandas
 
 # Install CAMATIS dependencies (if not already installed)
 pip install torch lightgbm catboost xgboost scikit-learn simpy
-4. Verify CAMATIS Installation
+### 4. Verify CAMATIS Installation
 bash
 # Test that CAMATIS imports work
 python -c "from camatis.run_agents_pipeline import CAMATISDecisionPipeline; print('✅ CAMATIS imported successfully')"
-📁 Project Structure
+
+## 📁 Project Structure
 Ensure your project structure looks like this:
 
 text
@@ -97,7 +97,7 @@ USERS = {
     "admin@camatis.ai": {"password": "admin123", "role": "Admin", "name": "Admin User"},
     "operator@camatis.ai": {"password": "operator123", "role": "Operator", "name": "Operator User"}
 }
-🏃 Running the Backend
+## 🏃 Running the Backend
 Method 1: Direct Run (Development)
 bash
 # Make sure you're in the project root
@@ -139,19 +139,20 @@ json
 }
 Dashboard & Data
 Endpoint	Method	Description
-/api/dashboard	GET	Get dashboard overview stats and charts
-/api/routes	GET	Get all routes with current status
-/api/route/{id}	GET	Get detailed analysis for specific route
-/api/alerts	GET	Get all anomaly alerts
-/api/results	GET	Get latest optimization results
+- /api/dashboard	GET	Get dashboard overview stats and charts
+- /api/routes	GET	Get all routes with current status
+- /api/route/{id}	GET	Get detailed analysis for specific route
+- /api/alerts	GET	Get all anomaly alerts
+- /api/results	GET	Get latest optimization results
 Optimization
 Endpoint	Method	Description
-/api/optimize	POST	Trigger CAMATIS pipeline inference
+- /api/optimize	POST	Trigger CAMATIS pipeline inference
 Health Check
 Endpoint	Method	Description
-/	GET	Root endpoint with API info
-/api/health	GET	Health check status
-🧪 Testing the API
+- /	GET	Root endpoint with API info
+- /api/health	GET	Health check status
+
+## 🧪 Testing the API
 Using Browser
 Start the backend server
 
@@ -217,7 +218,7 @@ Backend API: http://localhost:8000
 
 API Docs: http://localhost:8000/docs
 
-📝 Development Notes
+## 📝 Development Notes
 Auto-reload
 The --reload flag automatically restarts the server when code changes. Remove for production.
 
@@ -228,12 +229,6 @@ Add model in backend/models.py
 
 Add service method in appropriate service file
 
-📚 Resources
-FastAPI Documentation
 
-Uvicorn Documentation
-
-Pydantic Documentation
-
-📄 License
+## 📄 License
 CAMATIS - Causal-Adaptive Multi-Agent Transport Intelligence System
