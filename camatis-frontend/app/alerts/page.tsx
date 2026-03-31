@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import Sidebar from "@/components/layout/Sidebar";
 import { getAlerts } from "@/lib/api";
 import { Card, CardContent } from "@/components/ui/Card";
-import { AlertTriangle, Info, XCircle } from "lucide-react";
+import { AlertTriangle, Info } from "lucide-react";
 
 interface Alert {
   id: number;
@@ -15,10 +15,25 @@ interface Alert {
   time: string;
 }
 
-const severityConfig: Record<string, { icon: typeof XCircle; color: string; bg: string; badge: string }> = {
-  High: { icon: XCircle, color: "text-red-500", bg: "bg-red-50", badge: "bg-red-100 text-red-700 border-red-200" },
-  Medium: { icon: AlertTriangle, color: "text-yellow-500", bg: "bg-yellow-50", badge: "bg-yellow-100 text-yellow-700 border-yellow-200" },
-  Low: { icon: Info, color: "text-blue-500", bg: "bg-blue-50", badge: "bg-blue-100 text-blue-700 border-blue-200" },
+// Only two types: Yellow for Investigate Anomaly, Blue for Uncertainty
+const getAlertStyle = (message: string) => {
+  if (message.toLowerCase().includes("investigate") || message.toLowerCase().includes("flagged")) {
+    return {
+      icon: AlertTriangle,
+      color: "text-yellow-600",
+      bg: "bg-yellow-50",
+      badge: "bg-yellow-100 text-yellow-700 border-yellow-200",
+      label: "Investigate"
+    };
+  }
+  // Uncertainty alerts
+  return {
+    icon: Info,
+    color: "text-blue-600",
+    bg: "bg-blue-50",
+    badge: "bg-blue-100 text-blue-700 border-blue-200",
+    label: "Uncertainty"
+  };
 };
 
 export default function AlertsPage() {
@@ -45,7 +60,7 @@ export default function AlertsPage() {
         ) : (
           <div className="flex flex-col gap-3">
             {alerts.map((alert) => {
-              const cfg = severityConfig[alert.severity] ?? severityConfig.Low;
+              const cfg = getAlertStyle(alert.message);
               const Icon = cfg.icon;
               return (
                 <Card key={alert.id}>
@@ -55,7 +70,7 @@ export default function AlertsPage() {
                       <div className="flex items-center gap-2 mb-1">
                         <span className="text-sm font-semibold text-slate-700">{alert.route}</span>
                         <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium border ${cfg.badge}`}>
-                          {alert.severity}
+                          {cfg.label}
                         </span>
                         <span className="text-xs text-slate-400 ml-auto">{alert.time}</span>
                       </div>

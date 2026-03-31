@@ -107,7 +107,7 @@ cd C:\Users\rishi\OneDrive\Desktop\PROJECTS\PBL2
 venv\Scripts\activate
 
 # Run the server with auto-reload
-uvicorn backend.main:app --reload --port 8000
+uvicorn backend.main:app --reload --port 8001
 Method 2: Run with Python
 bash
 # Navigate to project root
