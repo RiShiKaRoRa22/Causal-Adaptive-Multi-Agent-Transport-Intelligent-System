@@ -108,6 +108,7 @@ venv\Scripts\activate
 
 # Run the server with auto-reload
 uvicorn backend.main:app --reload --port 8001
+
 Method 2: Run with Python
 bash
 # Navigate to project root
